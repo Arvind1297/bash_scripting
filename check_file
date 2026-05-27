@@ -1,0 +1,9 @@
+#!/bin/bash
+#Check if log file size is too large (>= 500 MB)
+read -p " enter file size : " file_size
+if [ $file_size -ge 500 ]
+then 
+   echo " file size is large "
+else
+   echo " file size is moderate "
+fi 
